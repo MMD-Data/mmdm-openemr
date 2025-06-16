@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# Whenever working with the database
+
+- Review the schema file @schema.sql for the database structure
+- Please use sqlStatement, sqlQuery, sqlInsert (etc) when making database calls.
+- The identification column in patient_data is "pid"
+- Never create new databases with foreign keys.  Only use indexed integer columns.
